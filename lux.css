@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*navbar */
+.navTitle{
+    color: #6d231c!important;
+}
+.alheader{
+    width: 100%;
+}
+.bold{
+    font-weight: bolder !important;
+    color: rgba(143, 164, 191, 0.9) !important;
+}
+.card_container  {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 1rem;
+}
+.container {
+    display: flex;
+    height: 560px;
+    margin: 10px;
+    width: 100%;
+}
+.car {
+    margin: 40px;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff2e4a9;
+    border-radius: 15%;
+    box-shadow:
+    15px 15px 5.3px -5px rgba(0, 0, 0, 0.018),
+    30.8px 30.8px 17.9px -5px rgba(0, 0, 0, 0.033),
+    100px 100px 80px -5px rgba(0, 0, 0, 0.07)
+ }
+ img {
+     height: 200px;
+     width: 300;
+ }
+button{
+    background-color: #b3c3d8;
+    border-radius: 10px;
+    border: 2px;
+    width: 120px;
+}
